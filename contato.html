@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topo">
+        <span class ="logo">
+            <img src="img/logo.jpg" alt="Logo da Emirates Airlines">
+        </span>
+        <nav class="menu">
+            <a href="index.html" class="ativo">
+                Início
+            </a>
+
+            <a href="sobre.html"class="ativo">Sobre</a>
+            <a href="contato.html"class="ativo">Voos</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="conteudo">
+            <h1>Voos disponíveis</h1>
+            <p>Preencha o formulário abaixo e escolha o seu voo!</p>
+
+            <form class="form" action="#">
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="name" placeholder="Seu nome">
+                </div>
+                <div class="campo">
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" name="email" placeholder="voce@email.com">
+                </div>
+                <div class="opcao">
+    <fieldset>
+        <legend>Escolha a sua passagem aérea</legend>
+
+        <label>
+            <input type="radio" name="aerea" checked>
+            São Paulo
+        </label>
+
+        <label>
+            <input type="radio" name="aerea">
+            Brasília
+        </label>
+
+        <label>
+            <input type="radio" name="aerea">
+            Rondônia
+        </label>
+
+        <label>
+            <input type="radio" name="aerea">
+            Bahia
+        </label>
+
+        <label>
+            <input type="radio" name="aerea">
+            Minas Gerais
+        </label>
+    </fieldset>
+</div>
+                <button type="submit" class="botao">
+                    Enviar
+                </button>
+            </form>
+        </section>
+    </main>
+    <footer class ="rodape">
+    <p>Feito por Rafael - projeto frontend</p>
+    </footer>
+    
+</body>
+</html>
